@@ -36,6 +36,7 @@
 
   $.get('https://api.bplforge.com/api/blocks/getHeight', function(res) {
     network = parseInt(res.height, 10)
+    $('#networkBlockHeight').text(network)
     giveAnswer()
   })
 
@@ -44,6 +45,7 @@
       return token[2] === 'BPL'
     })[0]
     cryptopia = parseInt(bpl[7], 10)
+    $('#cryptopiaBlockHeight').text(cryptopia)
     giveAnswer()
   })
 }());
