@@ -40,7 +40,7 @@
     giveAnswer()
   })
 
-  $.get('https://cors.io/?https://www.cryptopia.co.nz/CoinInfo/GetCoinInfo', function(res) {
+  $.get('https://should-i-withdraw.bplforge.com:9999', function(res) {
     var bpl = JSON.parse(res).aaData.filter(function(token) {
       return token[2] === 'BPL'
     })[0]

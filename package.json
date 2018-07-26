@@ -1,0 +1,9 @@
+{
+  "name": "should-i-withdraw",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
