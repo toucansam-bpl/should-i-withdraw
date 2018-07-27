@@ -12,7 +12,7 @@ var options = {
     'dnt': 1,
     'upgrade-insecure-requests': 1,
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
-    'cookie': 'CryptopiaLang=en; .ASPXANONYMOUS=NpcX2EDmcv-G5nrarZF6drtkZiraoC6m56fPhwsU-oBHra5ah8J2z2Uuo7_6Dx1aAGWPcHmhFM9GPWDKj9udArqeGb4qJ74V0ylzdTAlF1nNqyIVahkfZBuwB_-mSJYSdNwAcibtvrt_Nfc85X6Dgw2; __RequestVerificationToken=vVfllb5YosuZ7FiWM74DJPtuPCLqw20QQq9V-8Pv3Uqcejqkx5uztF_KM7cIdyZGblqQcEjI7OF9Z6qpIWz5rj8jkUYeUebuch9oo6Q9pus1; visid_incap_1244263=7GigJb1iQVyWx4PHlbJYip3tVVsAAAAAQUIPAAAAAABzw6SQaWg7q4e7Af+Lcsne; __auc=84317aa1164c7a839bb3eea6cdf; nlbi_1244263=B/8iBMzIaRoqqY/F+HS37gAAAAC2lozzEWPbLbXsDCCHrLAb; incap_ses_262_1244263=sL5uHKgwhikEFPsUrdCiA0jUWVsAAAAAgus+gfNf3YjTP3PJZnVGAw==; incap_ses_114_1244263=346tafND+XjJcRT7IQOVATjsWVsAAAAAx4Jy55p+HRlYCeckVTnfJQ==; incap_ses_869_1244263=6FTGAQPPpFGHoOXHUk8PDD8lWlsAAAAAMuVOe/AIExOc7KByHIEcDQ==; incap_ses_512_1244263=evHXPJn6sDXwiPOmV/4aB16LWlsAAAAAKkr4fFq5I6Ro3cBNF1Rz1A==',
+    'cookie': process.env.cookie,
   },
   follow: 10,
   follow_set_cookies: true,

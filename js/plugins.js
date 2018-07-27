@@ -40,9 +40,7 @@
     giveAnswer()
   })
 
-  $.get('http://localhost:9999', function(res) {
-
-  console.log(res)
+  $.get('https://should-i-withdraw.bplforge.com/cryptopia', function(res) {
     var bpl = JSON.parse(res).aaData.filter(function(token) {
       return token[2] === 'BPL'
     })[0]
